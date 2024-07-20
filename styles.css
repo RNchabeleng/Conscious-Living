@@ -1,17 +1,18 @@
-
-
 body {
-    margin: 0;
+    margin: 50%;
     font-family: Arial, sans-serif;
 }
 
 .header {
     display: flex;
+    position: static;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f9fa;
+    background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 165vh;
+    border-radius: 15px;
 }
 
 .logo {
@@ -20,7 +21,7 @@ body {
 }
 
 .logo img {
-    height: 40px;
+    height: 50px;
     margin-right: 10px;
 }
 
@@ -44,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #e9ecef;
+    background-color: #ff66c4;
     border-radius: 5px;
 }
 
@@ -65,8 +66,10 @@ nav a:hover {
 }
 
 .home-section img {
-    width: 40%;
+    max-width: 33%;
+    height: 33%;
 }
+
 
 .mission-section {
     text-align: center;
@@ -79,6 +82,7 @@ nav a:hover {
 
 .mission-section img {
     width: 30%;
+    height: 50%;
     margin: 10px;
 }
 
@@ -86,5 +90,44 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+}
+
+a {
+    color: #ff66c4;
+    border-radius: 25px;
+}
+
+p {
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+h2 {
+    background-color: #ff66c4;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #ff66c4;
+    border-radius: 25px;
+    padding: 25px;
+    color: white;
+}
+
+body {
+    background-image: url('modern-white-gradient-banner-with-abstract-shapes-vector.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /*Fixed during scrolling*/
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 10px 175px 175px; /* Add padding to the body (top, right/left, bottom) */
 }
